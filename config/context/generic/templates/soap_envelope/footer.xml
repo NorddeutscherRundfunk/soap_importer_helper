@@ -1,0 +1,38 @@
+]]>
+            </documentXml>
+			
+            <!-- Insert the right instance number according to your importers config file -->
+            <instanceIndex>42</instanceIndex>
+
+            <!--  Adjust the following lines to meet the structure node path and properties of your Sophora instance -->
+            <xslParam>
+                <key>idStem</key>
+                <value>ID_STEM</value>
+            </xslParam>
+            <xslParam>
+                <key>structureNodePath</key>
+                <value>STRUCTURE_NODE_PATH</value>
+            </xslParam>
+            <xslParam>
+                <key>etikettLRA</key>
+                <value>ETIKETT_LRA</value>
+            </xslParam>
+            <xslParam>
+                <key>etikettRegion</key>
+                <value>ETIKETT_REGION</value>
+            </xslParam>
+            <xslParam>
+                <key>etikettDachzeile</key>
+                <value>ETIKETT_DACHZEILE</value>
+            </xslParam>
+            <xslParam>
+                <key>source</key>
+                <value>SOURCE</value>
+            </xslParam>
+            <xslParam>
+                <key>setUrl</key>
+                <value>SET_URL</value>
+            </xslParam>
+        </ws:importXmlToInstance>
+    </soapenv:Body>
+</soapenv:Envelope>
